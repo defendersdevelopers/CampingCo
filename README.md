@@ -1,5 +1,5 @@
 # CampingCo
 
-you can find the sample application in app/build/outputs/apk/debug/app-debug.apk
+you can find the sample application in app/app-debug.apk
 
 
