@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:elevation="6dp"
+        app:cardCornerRadius="4dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/campsite_image"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:scaleType="fitXY"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:id="@+id/campsite_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Title"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:fontFamily="@font/montserrat"
+            android:text="CAMPSITE"/>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/line_campsite"/>
+
+        <TextView
+            android:id="@+id/campsite_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="Details of the site..." />
+
+        <TextView
+            android:id="@+id/campsite_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read More>>>"
+            android:textColor="@color/colorMain"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

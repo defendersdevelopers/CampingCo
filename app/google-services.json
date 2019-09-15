@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "420810173201",
+    "firebase_url": "https://campingco-2006a.firebaseio.com",
+    "project_id": "campingco-2006a",
+    "storage_bucket": "campingco-2006a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420810173201:android:4af9e4b5786c5755d87ab0",
+        "android_client_info": {
+          "package_name": "com.defenders.campingco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420810173201-5biso5v4qp9iu84a83hrp3oo4qaniiv3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.defenders.campingco",
+            "certificate_hash": "f3235c7ea4889b75d4a5c3c8f2f9510695e782fc"
+          }
+        },
+        {
+          "client_id": "420810173201-u3qvagb97ko76agm3eh20rbthi1ue7fg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyko3irjItFfQtKcEl_ua8WLxcdTYo4dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420810173201-u3qvagb97ko76agm3eh20rbthi1ue7fg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ld_activityScreenTitles">
+        <item>Home</item>
+        <item>Campsites</item>
+        <item>About</item>
+        <item>FAQs</item>
+    </string-array>
+
+    <array name="ld_activityScreenIcons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_campsites</item>
+        <item>@drawable/ic_about</item>
+        <item>@drawable/ic_faq</item>
+    </array>
+
+</resources>

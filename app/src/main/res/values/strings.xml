@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Camping Co</string>
+
+
+    <string name="details">
+Welcome to Camping Co. We are the creators and believers of an alternate way of exploring the world. Camping co. is India\'s first self-drive over-land expedition venture.\n\n\nNature has a subtle way of enhancing consciousness, mindfulness, and awareness. With this belief, Camping Co. was created to provide a platform to have an immersive experience with nature. We enable travelers to explore the unexplored with the help of SUVs, jeeps equipped with rooftop tents and camping gears for a comfortable overlanding expedition. It\'s a self-drive rental model.\n\n\nCamping Co. aims to provide a solution for nature tourism and create a community of avid nature-adventure lovers.\n\n\nCamping Amenities:\n\n\nRooftop tent for 3 Adventurers\n\nSleeping Bags\n\nBBQ Grill\n\nGround tents\n\nCamp table and Chairs\n\nCooking and Plating wares\n\nCharcoal and Kerosene for cooking\n\nAdditional Equipment available upon request\n\nWE RENT FULLY-OUTFITTED OVERLAND VEHICLES FOR UNBOUNDED ADVENTURE\n\n\nOn the hunt for the perfect camp-ready rental? Whether you\'re hoping to visit picturesque valleys or explore the interiors of Northeast India, our vehicles are perfectly equipped to provide the ideal platform for adventurous travelers and nature lovers.\n\n\nWE USE ONLY THE HIGHEST QUALITY VEHICLES AND EQUIPMENT TO ENSURE COMFORT AND SAFETY.\n\n\nOur rentals come fully-equipped with all the needed camping gear and complimentary itinerary planning, so you can focus on enjoying your trip and not get overwhelmed by logistics. Aside from our list of included items below, we are able to provide a range of add-ons, from ground tents and sleeping bags, to cooking and cutlery so please feel free to ask.\n\n</string>
+
+    <string-array name="featured_image">
+        <item>
+https://camping-company.s3.amazonaws.com/media/maps/detail/3Thumbnail.jpg        </item>
+        <item>
+https://camping-company.s3.amazonaws.com/media/maps/detail/black2.jpg        </item>
+        <item>
+https://camping-company.s3.amazonaws.com/media/maps/detail/blackIMG_20190425_064920.jpg        </item>
+        <item>
+https://camping-company.s3.amazonaws.com/media/maps/detail/1558501138_5c0e8cc6_bff1_4a77_82bc_cfdeb761c4b2.jpg
+        </item>
+    </string-array>
+
+    <string name="default_web_clint_id">420810173201-u3qvagb97ko76agm3eh20rbthi1ue7fg.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">459545054653296</string>
+    <string name="fb_login_protocol_scheme">fb459545054653296</string>
+</resources>

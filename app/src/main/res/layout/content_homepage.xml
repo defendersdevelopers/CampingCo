@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        android:clipToPadding="false"
+        android:scrollbars="none"
+        android:scrollingCache="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="blocksDescendants"
+            android:orientation="vertical"
+            android:background="#E2E1E1">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#CFCDCD">
+                        <com.defenders.campingco.imageSlider.AutoSlideBannerView
+                            android:id="@+id/bannerSlider"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="-10dp"
+                android:layout_gravity="center_horizontal">
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:spinnerMode="dropdown"
+                    android:background="#ffffff"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_arrow_drop_down"
+                    android:background="#ffffff"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/curve"
+                    android:layout_marginHorizontal="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="5\nsep"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="#636363"
+                        android:gravity="center"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/curve"
+                    android:layout_marginHorizontal="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="1 day"
+                        android:textColor="#636363"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"/>
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/curve"
+                    android:backgroundTint="#2E9975"
+                    android:layout_marginHorizontal="10dp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SUBMIT"
+                        android:textStyle="bold"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        />
+
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_vehicles"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:scrollbars="vertical"
+                android:scrollingCache="true" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/bottom_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:layout_margin="3dp">
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:weightSum="4">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_car"/>
+
+                    <TextView
+                        android:fontFamily="@font/montserrat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="300"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:fontFamily="@font/montserrat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Over Landing expeditions"
+                        android:textSize="8dp"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:tint="#2E9975"
+                        android:src="@drawable/ic_road"/>
+
+                    <TextView
+                        android:fontFamily="@font/montserrat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="210000"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:fontFamily="@font/montserrat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Distance Travelled"
+                        android:textSize="8dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_map"/>
+
+                    <TextView
+                        android:fontFamily="@font/montserrat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="30"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:fontFamily="@font/montserrat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Overland Locations Discovered"
+                        android:textSize="8dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:tint="#2E9975"
+                        android:src="@drawable/ic_bonfire"/>
+
+                    <TextView
+                        android:fontFamily="@font/montserrat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1100"
+                        android:textSize="10dp"/>
+
+                    <TextView
+                        android:fontFamily="@font/montserrat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bonfire Built"
+                        android:textSize="8dp"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+    <ProgressBar
+        android:id="@+id/pb_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
